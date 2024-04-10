@@ -1,0 +1,22 @@
+{
+  "name": "backlog-per-task-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.529.1",
+    "@aws-sdk/client-ecs": "^3.529.1",
+    "@aws-sdk/client-sqs": "^3.529.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "esbuild": "^0.20.1",
+    "typescript": "^5.4.2"
+  }
+}

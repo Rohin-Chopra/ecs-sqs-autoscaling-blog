@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ~/.aws/:/root/.aws:ro
+    env_file: .env
